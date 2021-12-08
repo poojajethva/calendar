@@ -97,7 +97,7 @@ header{
 }
 
 .highlight{
-    background: #550c82;
+    background: #000;
     color: #fff;
 }
 
@@ -124,6 +124,10 @@ header{
 .day li.all-day{
     background: #792fb1;
     color: white;
+}
+
+.dull{
+    background: #ccc;
 }
 
 /* Popup =============== */
