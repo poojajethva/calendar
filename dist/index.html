@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar Plain JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div class="logo">Calender</div>
+            <div class="header-cont">
+                <button class="today">Today</button>
+                <div class="arrows">
+                    <button class="left-arrow"><</button>
+                    <button class="right-arrow">></button>
+                </div>
+                <div class="month-pick">
+                    <label for="month">Pick Month</label>
+                    <input id="month" type="month" name="month"
+                    min="2021-01" max="2021-12" required>
+                </div>
+            </div>
+        </header>
+        <section class="calendar">
+            <div class="cal-head">
+                <span>Sun</span>
+                <span>Mon</span>
+                <span>Tue</span>
+                <span>Wed</span>
+                <span>Thu</span>
+                <span>Fri</span>
+                <span>Sat</span>
+            </div>
+            <div class="cal-body"></div>
+        </section>
+    </section>
+    <script src="bundle.js"></script>
+</body>
+</html>
